@@ -60,7 +60,7 @@ function handleChange(e) {
         loader.style.display = 'none';
         const catData = breeds[0];
         catInfo.innerHTML = `
-            <img src="${catData.url}"  width="500" height="400" style="object-fit: cover; border-radius: 16px;">
+            <img src="${catData.url}"  width="300" style="object-fit: cover; border-radius: 16px;">
             <div style="width: 600px;">
               <h2>${catData.breeds[0].name}</h2>
               <p>${catData.breeds[0].description}</p>
